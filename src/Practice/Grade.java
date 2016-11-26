@@ -19,7 +19,7 @@ public class Grade {
         if (strGrade.equals("A")) {
             return 4.0;
         }
-        if (strGrade.equals("-A")) {
+        if (strGrade.equals("A-")) {
             return 3.7;
         }
         if (strGrade.equals("B+")) {
@@ -52,6 +52,7 @@ public class Grade {
         if (strGrade.equals("F")) {
             return 0.0;
         }else {
+            System.out.println("Wrong grade");
             System.exit(1);
             return 0;
         }

@@ -35,7 +35,9 @@ public class Student {
     }
 
     public void addGrade(String grade) {
-        TotalGrade
+        Grade gr = new Grade(grade);
+        TotalGrade += gr.gradeToPoints();
+        numOfGrades++;
     }
 
     public double getGPA() {
