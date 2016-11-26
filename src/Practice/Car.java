@@ -6,7 +6,7 @@ package Practice;
 public class Car {
 
 
-    public Car(double efn, double a) {
+    public Car(double efn) {
 
     }
 
@@ -14,11 +14,11 @@ public class Car {
 
     }
 
-    public void getGasLevel() {
-        return fuelLevel;
+    public double getGasLevel() {
+
     }
 
-    public void addGas(int gal) {
+    public void addGas(double gal) {
 
     }
 }
