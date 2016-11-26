@@ -5,4 +5,12 @@ package Practice;
  */
 public class Grade {
 
+
+    public Grade(String gr) {
+
+    }
+
+    public double gradeToPoints(){
+
+    }
 }

@@ -7,6 +7,8 @@ public class Student {
     private String Name;
     private int TotalScore;
     private int numOfQuizzes;
+    private double TotalGrade;
+    private int numOfGrades;
 
 
     public Student(String nm) {
@@ -33,11 +35,11 @@ public class Student {
     }
 
     public void addGrade(String grade) {
-
+        TotalGrade
     }
 
-    public double get() {
-
+    public double getGPA() {
+        return TotalGrade / numOfGrades;
     }
 }
 
