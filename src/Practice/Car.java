@@ -6,19 +6,19 @@ package Practice;
 public class Car {
 
 
-    public Car() {
+    public Car(double efn, double a) {
 
     }
 
-    public void drive() {
+    public void drive(int miles) {
 
     }
 
     public void getGasLevel() {
-
+        return fuelLevel;
     }
 
-    public void addGas() {
+    public void addGas(int gal) {
 
     }
 }
