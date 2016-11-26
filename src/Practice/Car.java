@@ -10,18 +10,19 @@ public class Car {
 
 
     public Car(double efn) {
-
+        Efficiency = efn;
+        fuelLevel = 0;
     }
 
     public void drive(int miles) {
-
+         fuelLevel -= (miles/Efficiency);
     }
 
     public double getGasLevel() {
-
+        return fuelLevel;
     }
 
     public void addGas(double gal) {
-
+        fuelLevel += gal;
     }
 }
