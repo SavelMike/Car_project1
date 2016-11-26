@@ -15,7 +15,11 @@ public class Car {
     }
 
     public void drive(int miles) {
-         fuelLevel -= (miles/Efficiency);
+        if (fuelLevel > miles/Efficiency) {
+            fuelLevel -= (miles / Efficiency);
+        }else {
+            fuelLevel = 0;
+        }
     }
 
     public double getGasLevel() {
