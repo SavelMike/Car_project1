@@ -5,6 +5,9 @@ package Practice;
  */
 public class Car {
 
+    private double Efficiency;
+    private double fuelLevel;
+
 
     public Car(double efn) {
 
