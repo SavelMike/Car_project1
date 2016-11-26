@@ -31,4 +31,13 @@ public class Student {
     public double getAverageScore() {
         return TotalScore / numOfQuizzes;
     }
+
+    public void addGrade(String grade) {
+
+    }
+
+    public double get() {
+
+    }
 }
+
