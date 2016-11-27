@@ -6,8 +6,9 @@ package Practice;
 public class LetterTest {
     public static void main(String[] args) {
         Letter l = new Letter("Misha", "Petya");
-        l.addLine("Hello Vasya, kak dela?");
-        l.getText();
+        l.addLine("Kak dela?");
+        l.addLine("How are you?");
+        l.addLine("Where are you?");
         l.main();
     }
 }

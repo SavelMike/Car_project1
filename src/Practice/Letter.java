@@ -17,10 +17,11 @@ public class Letter {
 
     public void addLine(String line) {
         text += line;
+        text += "\n";
     }
 
     public String getText() {
-        return "Dear " + recipient + ":\n" + text + "\n" + text + "\n" + text + "\nSincerely,\n" + sender;
+        return "Dear " + recipient + ":\n\n" + text + "\n" + text + "\n" + text + "\nSincerely,\n\n" + sender;
     }
 
     public void main() {
