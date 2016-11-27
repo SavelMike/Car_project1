@@ -20,7 +20,7 @@ public class Letter {
     }
 
     public String getText() {
-        return "Dear " + recipient + ":" + "/n" + text + "/n" + text + "/n" + text + "/n" + "Sincerely," + "/n" + sender;
+        return "Dear " + recipient + ":\n" + text + "\n" + text + "\n" + text + "\nSincerely,\n" + sender;
     }
 
     public void main() {
