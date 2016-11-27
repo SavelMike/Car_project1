@@ -5,7 +5,7 @@ package Practice;
  */
 public class StudentTester {
     public static void main(String[] args) {
-        Student Misha = new Student("A");
+        Student Misha = new Student("Saveliev Misha");
         Misha.addGrade("A+");
         Misha.addGrade("B");
         Misha.addQuiz(6);
