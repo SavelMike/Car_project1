@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class MessageProgram {
     public static void main(String[] args) {
         Message newMessage = new Message("Vasya", "Petya");
-        while(true) {
+        while (true) {
             Scanner sc = new Scanner(System.in);
-            String input = sc.next();
+            String input = sc.nextLine();
             if (input.equals("end.")) {
                 System.out.println(newMessage.toString());
                 break;

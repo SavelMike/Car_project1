@@ -23,7 +23,7 @@ public class Message {
         String rc;
         rc = "From: " + sender + "\nTo: " + recipient + "\n ";
         for (int i = 0; i < body.size(); i++) {
-            rc += body.get(i);
+            rc += body.get(i) + "\n";
         }
         return rc;
     }
