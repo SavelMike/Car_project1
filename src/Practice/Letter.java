@@ -21,7 +21,7 @@ public class Letter {
     }
 
     public String getText() {
-        return "Dear " + recipient + ":\n\n" + text + "\n" + text + "\n" + text + "\nSincerely,\n\n" + sender;
+        return "Dear " + recipient + ":\n\n" + text  + "\nSincerely,\n\n" + sender;
     }
 
     public void main() {
